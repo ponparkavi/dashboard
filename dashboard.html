@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protrack</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+</head>
+<style>
+    body{
+        background-color:rgb(248, 244, 244);
+    }
+.backgroundcolor{
+    background-image: linear-gradient(to right, #a188e0, #eeb1e6 40%, #fec6df );
+}
+</style>
+<body>
+    <nav class="backgroundcolor navbar px-3 py-0 my-0 d-flex justify-content-between " style="height:58px;"><!--navbar-->
+        <div class=" navbar">
+            <a href="#" class="btn ">
+                <i class=" bi bi-moon"></i>
+            </a>
+            <nav class="navbar-brand h5 fw-bold text-light me-5"> Protrack</nav>
+        
+        <div class="ms-5 pb-1 pt-0">
+            <input class="navbar  rounded-pill form-control text-dark" type="text" placeholder="     Search" 
+            style="width:350px;height:38px;" >
+            <!-- <img src="E:\bootstrap\New folder\icon.png" style="width:20px;height:20px;"> -->
+             <!-- <i class="bi bi-search navbar text-info"></i> -->                                                                                                                                                                                                                                                             
+        </div></div>
+        <nav class="navbar text-right ">
+            <button class="btn btn-info text-light fw-semibold" > + ADD TASKS </button>
+            <div class="btn pt-0 border-0 mx-2" style="color:#a66cc5">
+                <i class=" bi bi-bell fs-4 "></i>
+            </div>
+            <div class=" btn border-0 pt-0 fs-4">
+                <i class="bi bi-person-circle"></i>
+            </div>
+         </nav>
+    </nav>
+
+    <main class="d-grid">
+        <div class="row"><!--sidebar-->
+            <div class="col-2" style="background-color:rgb(234, 227, 227);">
+                <br>
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item p-1">
+                      <a href="#" class="nav-link bg-info text-dark">
+                          <i class="bi bi-grid "></i>
+                      Home
+                      </a>
+                    </li>
+                    <li class="nav-item p-1 ">
+                      <a href="#" class="nav-link text-dark">
+                          <i class="bi bi-calendar-week-fill"></i>
+                      Calendar
+                      </a>
+                    </li>
+                    <li class="nav-item p-1">
+                      <a href="#" class="nav-link text-dark">
+                          <i class="bi bi-calendar-week-fill"></i>
+                          Tasks
+                      </a>
+                    </li>
+                    <li class="nav-item p-1">
+                      <a href="#" class="nav-link text-dark">
+                          <i class="bi bi-calendar-week-fill"></i>
+                      Notes
+                      </a>
+                    </li>
+                  </ul>
+                  <hr>
+
+            </div><!--sidebar end-->
+            <div class="col-6"><!--center start-->
+                <div class="">
+                    <h6 class=" pt-1" style="color:rgb(95, 89, 89);">Welcome Back!</h6>
+                <h3 class="py-0">Dalton's Home</h3>
+                </div>
+                 
+                <div class="container bg-light" style=" border-radius: 5px; border:1px solid rgb(228, 223, 223);">
+                    <h5 style="color:rgb(95, 89, 89);">Weekly Overview</h5>
+                    <div class="d-flex ">
+                        <div class="col">
+                            <p class="m-0" style="color:#14e422;"><b class="fs-2 text-dark ">20 </b> <i class="fas fa-caret-up"></i><b>+2.45%</b></p>
+                            <p class="m-0">Tasks Completed</p>
+                            <p class=" h6  p-2 fw-bold" style="color:#14e422;"><i class="fas fa-check-circle"></i>On track</p>
+                            <button class="btn" style=" color:#a66cc5; border-color: #a66cc5; "><i class="bi bi-book"></i>  OPEN TASKS</button>
+                        </div>
+                        <div class="col">
+                            <img src="E:\bootstrap\New folder\Capture.PNG" class="div" alt="" style><br><br>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p class="pt-2 h5">Notes</p>
+                            </div>
+                            <div class="d-flex align-item-center ">
+                                <button class="btn d-flex border-0 p-0 fs-4 pb-2 pt-0">
+                                    <i class="bi bi-plus-square-fill text-info"></i>
+                                </button>
+                                
+                                <button class="btn  border-0 pt-0">
+                                <i class="bi bi-chevron-right box p-1 pt-0  flex" 
+                                style=" border-radius: 5px;border:2px solid blueviolet;height:30px;"></i>
+                                </button>
+                            </div>
+                            
+                        </div>
+                        <div class="row d-flex">
+                            <div class="col-" style="border:1px solid rgb(118, 112, 112);font-size:small;">
+                                <h5>Follow Up with Mr. Ashton</h5>
+                                <p>Following up on our meeting with Mr. Ashton, I wanted to recap the key points discussed and outline the action items moving forward. During the meeting, we touched upon the project timeline, budget considerations, and specific deliverables. Mr. Ashton expressed ...</p>
+                            </div>
+                            <div class="col- " style="border:1px solid rgb(118, 112, 112);font-size:small;">
+                                <h5>Setlist for hackathon</h5>
+                                <ul style="list-style-type:none;">
+                                    <li>-Project Timeline</li>
+                                    <li>-Budget Considerations</li>
+                                    <li>-Specific Deliverables</li>
+                                    <li>-Additional Features for Software Solution</li>
+                                    <li>-Detailed Proposal for Review</li>
+                                    <li>-Prepare the PPT</li>
+                                    <li>-Review by Ravi</li>
+                                    <li>-GD</li>
+                                    <li>-The Grand Finale</li>
+                                </ul>
+                                <footer class="footer">
+                                    <div class="d-flex justify-content-between">
+                                        <p>21 May 2024</p>
+                                    
+                                    <button class="btn  border-0 pt-0">
+                                        <i class="bi bi-chevron-right box p-1 pt-0  flex" 
+                                        style=" border-radius: 5px;border:2px solid blueviolet;height:30px;"></i>
+                                        </button>
+                                    </div>
+                                </footer>
+                            </div>
+                            <div class="col-" style="border:1px solid rgb(118, 112, 112);font-size:small;">
+                                <h5>Auroras and Sad Prose</h5>
+                                <p class="m-0 p-0">Tears fall like rain on a lonely street</p>
+                                <p class="m-0 p-0">Heart heavy with sorrow, no solace to meet</p>
+                                <p class="m-0 p-0">Memories of joy now turned to dust</p>
+                                <p class="m-0 p-0">In the shadows of sadness, I place my trust</p>
+                                <p class="m-0 p-0">Each note a reminder of what used to be A melody of pain, a symphony for me</p>
+                                <p class="m-0 p-0">Lost in the darkness, searching for light</p>
+                                
+                                    <footer class="footer">
+                                    21 May 2024
+                                    <button class="btn  border-0 pt-0">
+                                        <i class="bi bi-chevron-right box p-1 pt-0  flex" 
+                                        style=" border-radius: 5px;border:2px solid blueviolet;height:30px;"></i>
+                                        </button>
+                                </footer>
+                            </div>
+                        </div>
+                </div>
+            </div><!--center end-->
+            <div class="col-4 bg-"><!--calender page-->
+                <div class="container mb-2">
+                    <div class="d-flex mt-4  justify-content-between">
+                        <div class="h3 fw-bold ">Calendar</div>
+                        <button class="btn border-0 pt-0">
+                            <i class="bi bi-chevron-right box p-1 pt-0  flex" 
+                            style=" border-radius: 5px;border:2px solid blueviolet;height:30px;"></i>
+                            </button>
+                    </div>
+                    <div class="d-flex mt-2 align-items-center row px-3 gap-2">
+                        <div class="col btn rounded d-flex flex-column border-dark p-0" style="--bs-border-opacity:.2;height:72px; ">
+                            <div class="" style="height:15px; border-top-right-radius:5px;border-top-left-radius:5px;background-color: #fec6e1;">
+                            </div>
+                            <div class="col box bg-light"  style="border-bottom-right-radius:5px;height:60px;border-bottom-left-radius:5px;">
+                                <h5 class="m-0">19</h5><small>Sun</small>
+                            </div>
+                        </div>
+                        <div class="col btn d-flex flex-column rounded border-dark p-0" style="--bs-border-opacity:.2;height:72px; ">
+                            <div class="" style="height:15px; border-top-right-radius:5px;border-top-left-radius:5px;background-color: #fec6e1;">
+                            </div>
+                            <div class="box bg-light" style="border-bottom-right-radius:5px;height:60px;border-bottom-left-radius:5px;">
+                                <h5 class="m-0">20</h5><small>Mon</small>
+                            </div>
+                        </div>
+                        <div class="col rounded border-dark d-flex flex-column py-3 p-2" style="--bs-border-opacity:.2;">
+                            <div class="" style="height:20px;width:60px;border-top-right-radius:5px;border-top-left-radius:5px;background-color: #fb54a5;">
+                            </div> 
+                            <div class="box bg-light text-center" style="border-bottom-right-radius:5px;height:73px;border-bottom-left-radius:5px;" >
+                                <h5 class="">21</h5><small class="">Tue</small>
+                            </div>
+                        </div>
+                        <div class="col btn rounded d-flex flex-column border-dark p-0" style="--bs-border-opacity:.2;height:72px; ">
+                            <div class=" " style="height:15px;border-top-right-radius:5px;border-top-left-radius:5px;background-color: #fec6e1;">
+                            </div>
+                            <div class="box bg-light" style="border-bottom-right-radius:5px;height:60px;border-bottom-left-radius:5px;">
+                                <h5 class="m-0">22</h5><small>Wed</small>
+                            </div>
+                        </div>
+                        <div class="col btn d-flex flex-column  rounded border-dark p-0" style="--bs-border-opacity:.2;height:72px; ">
+                            <div class=" " style="height:15px; border-top-right-radius:5px;border-top-left-radius:5px;background-color: #fec6e1;">
+                            </div>
+                            <div class="box bg-light" style="border-bottom-right-radius:5px;height:60px;border-bottom-left-radius:5px;">
+                                <h5 class="m-0">23</h5><small>Thu</small>
+                            </div>
+                        </div>
+                        <div class="col btn d-flex flex-column rounded border-dark p-0" style="--bs-border-opacity:.2;height:72px; ">
+                            <div class=" " style="height:15px;border-top-right-radius:5px;border-top-left-radius:5px;background-color: #fec6e1;">
+                            </div>
+                            <div class="box bg-light" style="border-bottom-right-radius:5px;height:60px;border-bottom-left-radius:5px;">
+                                <h5 class="m-0">24</h5><small>Fri</small>
+                            </div>
+                        </div>
+                        <div class="col btn d-flex flex-column  rounded border-dark p-0" style="--bs-border-opacity:.2;height:72px; ">
+                            <div class=" " style="height:15px;border-top-right-radius:5px;border-top-left-radius:5px;background-color: #fec6e1;">
+                            </div>
+                            <div class="box bg-light" style="border-bottom-right-radius:5px;height:60px;border-bottom-left-radius:5px;">
+                                <h5 class="m-0">25</h5><small>Sat</small>
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="container fw-bold d-flex justify-content-even gap-2 mx-1  row" >
+                        <div class="btn btn-outline-info bg-info col text-info border-info" style="--bs-bg-opacity: .1;">
+                            <div class="box"> To - Do<br><h4>20</h4></div>   
+                        </div>
+                        <div class="btn col" style="background-color:#dfdcf1; color:#a66cc5;border-color: #a66cc5; ">
+                            <div class="box "> In-Progress<br><h4>15</h4></div> 
+                        </div>
+                        <div class="btn col" style="background-color:#e0f3ef; color:#14e422;border-color: #0de41b; ">
+                            <div class="box ">Complete<br><h4>03</h4></div>   
+                        </div>
+                    </div>
+                </div><br>
+                <hr>
+                <div class="container-fluid ">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h5 class="pt-2 h3">Tasks for the day</h5>
+                        </div>
+                        <div class="d-flex align-item-center ">
+                            <button class="btn d-flex border-0 p-0 fs-3 pb-2 pt-0">
+                                <i class="bi bi-plus-square-fill text-info"></i>
+                            </button>
+                            
+                            <button class="btn border-0 pt-0">
+                            <i class="bi bi-chevron-right box p-1 pt-0  flex" 
+                            style=" border-radius: 5px;border:2px solid blueviolet;height:30px;"></i>
+                            </button>
+                        </div>
+                        
+                    </div>
+
+                <div class="box p-2" style="border:1px solid rgb(162, 155, 155); border-radius: 10px;">
+                    <div class="d-flex flex-column p-2 box border-dark ">
+                        <div class="text-info d-flex justify-content-between fw-bold p-0 m-0"  >
+                            <div class="p-0" style="font-size:14px;">
+                                <i class="fas fa-check-square completed"></i>
+                                <del>Donate Rs. 500 to the charity</del>
+                            </div>
+                            <div class="text-dark" style="font-size:12px;"><p>2/2 completed</p></div>
+                        </div>
+                        <div class="text-info d-flex justify-content-between fw-bold ps-4 m-0">
+                            <div class="" style="font-size:14px;">
+                                <p class="p-0 m-0"><i class="fas fa-check-square completed"></i>
+                                    <del>Donate Rs. 500 to the charity</del></p>
+                                <p class="p-0 m-0"><i class="fas fa-check-square completed"></i>
+                                    <del>Donate Rs. 500 to the charity</del></p>
+                            </div>
+                            <div class="">
+                                <i class="bi bi-pencil btn fs-5 fw-bold text-primary px-0 border-0 "></i>
+                                <i class="bi bi-trash-fill text-danger fw-bold fs-5 px-0 btn border-0" ></i>
+                                <i class="bi bi-three-dots text-primary px-0 fs-5  btn border-0"></i>
+                            </div>
+                        </div> 
+                        <div class="">
+                            <i class="bi bi-tag-fill text-danger mx-1 fs-5"></i>
+                            <span class="box text-normal my-1 px-2" style="border-radius:10px;font-size:13px;background-color: rgb(250, 193, 172);color:rgb(199, 88, 48);">  Donations
+                            </span>
+                            <span class="box text-normal my-1 ms-2 px-2" style="border-radius:10px;font-size:13px;background-color: rgb(167, 235, 241);color:rgb(10, 123, 158);">Social</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="box p-2 mt-2" style="border:1px solid rgb(162, 155, 155); border-radius: 10px;">
+                    <div class="d-flex flex-column p-2 box border-dark ">
+                        <div class="d-flex justify-content-between fw-bold p-0 m-0"  >
+                            <div class="p-0" style="font-size:14px;">
+                                <p><i class="fas fa-check-square completed"></i>
+                                Do 500 pushups</p>
+                            </div>
+                            <div class="text-dark" style="font-size:12px;"><p>1/3 completed</p></div>
+                        </div>
+                        <div class=" d-flex justify-content-between fw-bold ps-4 m-0">
+                            <div class="" style="font-size:14px;">
+                                <p class=" text-info p-0 m-0"><i class="fas fa-check-square completed"></i>
+                                    <del>Start with 100</del></p>
+                                <p class="p-0 m-0"><i class="bi bi-square"></i>
+                                    Complete 250</p>
+                                    <p class="p-0 m-0"><i class="bi bi-square"></i>
+                                     Reach 400</p>
+                            </div>
+                            <div class="">
+                                <i class="bi bi-pencil btn fs-5 fw-bold text-primary px-0 border-0 "></i>
+                                <i class="bi bi-trash-fill text-danger fw-bold fs-5 px-0 btn border-0" ></i>
+                                <i class="bi bi-three-dots text-primary px-0 fs-5  btn border-0"></i>
+                            </div>
+                        </div> 
+                        <div class="">
+                            <i class="bi bi-tag-fill text-danger mx-1 fs-5"></i>
+                            <span class="box text-normal my-1 px-2" style="border-radius:10px;font-size:13px;background-color: rgb(215, 179, 237);color:rgb(104, 19, 157);">  Sport
+                            </span>
+                            <span class="box text-normal my-1 ms-2 px-2" style="border-radius:10px;font-size:13px;background-color: rgb(167, 235, 241);color:rgb(10, 123, 158);">Social</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</body>
