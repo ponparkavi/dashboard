@@ -9,6 +9,7 @@ background-image: linear-gradient(to right, #a188e0, #eeb1e6 40%, #fec6df );
     background-color: #fc469e;
     /* padding:18px; */
     border-radius: 18px;
+    margin-left: 16px;
 }
 .circle{
     height:40px;
@@ -17,21 +18,27 @@ background-image: linear-gradient(to right, #a188e0, #eeb1e6 40%, #fec6df );
     background: white;
     position: absolute;
     text-align: center;
+    right:20%; 
+    top:20%;
+    /* bottom:20%; */
+    /* left:20%; */
 }
 .circle_outer{
-    height:70px;
-    width:70px;
+    bottom: 40px;
+    left:50px ;
+    height:80px;
+    width:80px;
     border-radius:50%;
     background-color: #fc469e;
-    border:5px solid white;
-    position: relative;
+    border:6px solid white;
+    position:relative;
 }
 .ss_font{
     font-size:12px;
 }
 .center-start{
     border-radius: 5px; 
-    border:1px solid rgb(228, 223, 223);
+    border:1px solid rgb(236, 230, 230);
 }
 .main_first{
     color:rgb(95, 89, 89);
@@ -47,10 +54,6 @@ background-image: linear-gradient(to right, #a188e0, #eeb1e6 40%, #fec6df );
     border-radius: 5px;
     border:2px solid blueviolet;
     height:30px;
-}
-.main_bottom{
-    border:1px solid rgb(118, 112, 112);
-    font-size:small;
 }
 .calendar_tot{
     --bs-border-opacity:.2;
@@ -83,10 +86,6 @@ background-image: linear-gradient(to right, #a188e0, #eeb1e6 40%, #fec6df );
     background-color:#e0f3ef;
     color:#14e422;
     border-color: #0de41b;
-}
-.task_bar{
-    border:1px solid rgb(162, 155, 155);
-    border-radius: 10px;
 }
 .task_bottom1{
     border-radius:10px;

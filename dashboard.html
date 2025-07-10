@@ -40,11 +40,10 @@
 
     <main class="d-grid">
         <div class="row"><!--sidebar-->
-            <div class="col-2 p-4" style="background-color:rgb(234, 227, 227);">
-                <br><div class="row gap-5 d-flex">
-                <ul class="nav ps-3 d-flex nav-pills flex-column">
-                    <li class="nav-item p-1">
-                      <a href="#" class="nav-link bg-info text-light">
+            <div class="col-2 d-flex py-3 flex-column justify-content-between" style="background-color:rgb(234, 227, 227);">
+                <div class=""><ul class="nav p-3 d-flex flex-column">
+                    <li class="nav-item p-1" >
+                      <a href="#" class="nav-link bg-info text-light" style="border-radius:10px ;">
                           <i class="bi bi-grid "></i>
                       Home
                       </a>
@@ -67,33 +66,28 @@
                       Notes
                       </a>
                     </li>
-                  </ul>
-                  <hr>
-                  <div class="box text-light mt-4 col- d-felx flex-column align-items-center sidebar_square">
-                    <div class="circle_outer "><div class="circle"></div></div>
-                    <h6 class="fw-bolder text-center">Upgrade to PRO</h6>
-                    <p class="ss_font">To get access to all feature!
-                        Connect with Protrack World!</p>
-                  </div>
-                  <div class=" col- card mt-5 p-2 d-flex flex-row">
+                  </ul><hr></div>
+                    <div class="box text-light d-felx align-items-center sidebar_square">
+                        <div class="circle_outer d-flex ps-5 align-item-center ">
+                        <div class="circle"><i class="bi bi-mask fs-4 text-danger " style="--bs-bg-opacity:.1;"></i></div></div>
+                            <h6 class="fw-bolder h5 text-center">Upgrade to PRO</h6>
+                            <p class="ss_font text-center m-0 pb-3">To get access to all feature!<br>
+                            Connect with Protrack World!</p>     
+                   </div>                 
+                   <div class=" card  d-flex flex-row align-items-center">
                         <img src="E:\dashboard\image\user-icon.png" alt="" style="height:50px;width: 50px;">
-                        
-                            <div class=""><b>Dalton Smith</b><br>Free Account</div>
-                        
-                        
-                            <i class="bi bi-gear-fill d-flex align-items-center ps-3"></i>
-                        
-                  </div>
-                </div>   
+                           <div class="card-body p-0 pt-2" style="font-size:small;"><b>Dalton Smith</b><br>Free Account</div>
+                           <i class="bi bi-gear-fill m-2"></i>
+                    </div>
             </div><!--sidebar end-->
             <div class="col-6"><!--center start-->
                 <div class="">
-                    <h6 class=" pt-1 main_first">Welcome Back!</h6>
+                    <h6 class=" pt-3 main_first">Welcome Back!</h6>
                 <h3 class="py-0">Dalton's Home</h3>
                 </div>
                  
                 <div class="container bg-light center-start">
-                    <h5 style="color:rgb(95, 89, 89);">Weekly Overview</h5>
+                    <h5 style=" color:rgb(95, 89, 89); ">Weekly Overview</h5>
                     <div class="d-flex">
                         <div class="col">
                             <p class="m-0 green-text" ><b class="fs-2 text-dark ">20 </b> <i class="fas fa-caret-up"></i><b>+2.45%</b></p>
@@ -125,8 +119,8 @@
                         </div>
                         <section class="Notes d-flex">
                             <div class="bg-white card col me-3 p-2 rounded-3" style="font-size:small;">
-                                <h6 class="fw-bold">Follow Up with Mr.Ashton</h6>
-                                <p>Following up on our meeting with Mr.Ashton, I wanted to recap the key points discussed and outline the action items moving forward. During the meeting, we touched upon the project timeline, budget considerations, and specific deliverables. Mr. Ashton expressed ...</p>
+                                <h6 class="fw-bold ">Follow Up with Mr.Ashton</h6>
+                                <p class="m-0">Following up on our meeting with Mr.Ashton, I wanted to recap the key points discussed and outline the action items moving forward. During the meeting, we touched upon the project timeline, budget considerations, and specific deliverables. Mr. Ashton expressed ...</p>
                                 <h6>Attachments</h6>
                                 <p class=" d-flex" ><img src="E:\dashboard\image\attachment_icon1.PNG" alt="">screenchot information.png</p>
                                 <p class="d-flex"><img src="E:\dashboard\image\screenchot_information.PNG" alt="">screenchot information.png</p>
@@ -138,7 +132,7 @@
                                     </button>
                                 </div>
                             </div>
-                            <div class="bg-white border border-1 col d-flex flex-column justify-content-between me-3 p-2 rounded-3" style="border:1px solid rgb(118, 112, 112);font-size:small;">
+                            <div class="bg-white card col d-flex flex-column justify-content-between me-3 p-2 rounded-3" style="font-size:small;">
                                 <div>
                                 <h6 class="fw-bolder">Setlist for hackathon</h6>
                                 <ul style="list-style-type:none;">
@@ -155,13 +149,12 @@
                                 <div class="align-item-center d-flex justify-content-between">
                                    
                                         <span class="mb-0">21 May 2024</span>
-                                    
                                     <button class="btn  border-0 pt-0">
                                         <i class="bi bi-chevron-right box p-1 pt-0 chev_icon flex" ></i>
                                         </button>
                                 </div>
                             </div>
-                            <div class="bg-white border border-1 col p-2 rounded-3" style="border:1px solid rgb(118, 112, 112);font-size:small;">
+                            <div class="bg-white card col d-flex flex-column justify-content-between p-2 rounded-3" style="font-size:small;">
                                 <div class="">
                                     <h6 class="fw-bolder">Auroras and Sad Prose</h6>
                                     <p class="m-0 p-0">Tears fall like rain on a lonely street</p>
@@ -171,7 +164,7 @@
                                     <p class="m-0 p-0">Each note a reminder of what used to be A melody of pain, a symphony for me</p>
                                     <p class="m-0 p-0">Lost in the darkness, searching for light</p>
                                 </div>
-                                <div class="d-flex align-items-center pt-5 mt-5 justify-content-between">
+                                <div class="d-flex align-items-center justify-content-between">
                                    <span class="mb-0">21 May 2024</span>
                                     <button class="btn  border-0 pt-0">
                                         <i class="bi bi-chevron-right box p-1 pt-0 chev_icon flex" ></i>
@@ -262,10 +255,10 @@
                 <div class="container-fluid ">
                     <div class="d-flex justify-content-between">
                         <div>
-                            <h5 class="pt-2 h3">Tasks for the day</h5>
+                            <h5 class=" h3">Tasks for the day</h5>
                         </div>
                         <div class="d-flex align-item-center ">
-                            <button class="btn d-flex border-0 p-0 fs-3 pb-2 pt-0">
+                            <button class="btn d-flex border-0 p-0 fs-3 pb-2">
                                 <i class="bi bi-plus-square-fill text-info"></i>
                             </button>
                             
@@ -276,7 +269,7 @@
                         
                     </div>
 
-                <div class="box p-2 task_bar">
+                <div class="box p-2 card ">
                     <div class="d-flex flex-column p-2 box border-dark ">
                         <div class="text-info d-flex justify-content-between fw-bold p-0 m-0"  >
                             <div class="p-0" style="font-size:14px;">
@@ -306,7 +299,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="box p-2 mt-2 task_bar">
+                <div class="box p-2 mt-2 card ">
                     <div class="d-flex flex-column p-2 box border-dark ">
                         <div class="d-flex justify-content-between fw-bold p-0 m-0"  >
                             <div class="p-0 textbar_font" >
