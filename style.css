@@ -1,0 +1,143 @@
+body{
+    
+    background-color:rgb(248, 244, 244);
+}
+.backgroundcolor{
+background-image: linear-gradient(to right, #a188e0, #eeb1e6 40%, #fec6df );
+}
+.sidebar_square{
+    background-color: #fc469e;
+    /* padding:18px; */
+    border-radius: 18px;
+}
+.circle{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    text-align: center;
+}
+.circle_outer{
+    height:70px;
+    width:70px;
+    border-radius:50%;
+    background-color: #fc469e;
+    border:5px solid white;
+    position: relative;
+}
+.ss_font{
+    font-size:12px;
+}
+.center-start{
+    border-radius: 5px; 
+    border:1px solid rgb(228, 223, 223);
+}
+.main_first{
+    color:rgb(95, 89, 89);
+}
+.btn_task{
+    color:#a66cc5;
+     border-color: #a66cc5;
+}
+.green-text{
+    color:#14e422;
+}
+.chev_icon{
+    border-radius: 5px;
+    border:2px solid blueviolet;
+    height:30px;
+}
+.main_bottom{
+    border:1px solid rgb(118, 112, 112);
+    font-size:small;
+}
+.calendar_tot{
+    --bs-border-opacity:.2;
+    height:72px;
+}
+.calendar_top{
+    height:15px;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+    background-color: #fec6e1;
+}
+.calendar_day{
+    border-bottom-right-radius:5px;
+    height:60px;
+    border-bottom-left-radius:5px;
+}
+.calendar_tue{
+    height:19px;
+    width:60px;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+    background-color: #fb54a5;
+}
+.calen_tue_day{
+    border-bottom-right-radius:5px;
+    height:73px;
+    border-bottom-left-radius:5px;
+}
+.info_complete{
+    background-color:#e0f3ef;
+    color:#14e422;
+    border-color: #0de41b;
+}
+.task_bar{
+    border:1px solid rgb(162, 155, 155);
+    border-radius: 10px;
+}
+.task_bottom1{
+    border-radius:10px;
+    font-size:13px;
+    background-color: rgb(250, 193, 172);
+    color:rgb(199, 88, 48);
+}
+.task_bottom2{
+    border-radius:10px;
+    font-size:13px;
+    background-color: rgb(167, 235, 241);
+    color:rgb(10, 123, 158);
+
+}
+.textbar_font{
+    font-size:14px;
+}
+.textbar_bottom3{
+    border-radius:10px;
+    font-size:13px;
+    background-color: rgb(215, 179, 237);
+    color:rgb(104, 19, 157);
+}
+.textbar_bottom4{
+    border-radius:10px;
+    font-size:13px;
+    background-color: rgb(167, 235, 241);
+    color:rgb(10, 123, 158);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
